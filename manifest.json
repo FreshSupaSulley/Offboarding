@@ -1,0 +1,19 @@
+{
+  "name": "Offboarding",
+  "description": "How to get kicked out of NetJets tutorial",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://netjetsser.plateau.com/learning/user/learning/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "16": "/images/favicon16.png",
+    "32": "/images/favicon32.png",
+    "48": "/images/favicon48.png",
+    "128": "/images/favicon128.png"
+  }
+}
