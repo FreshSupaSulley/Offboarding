@@ -1,0 +1,498 @@
+<html lang="en" dir="ltr" class="sapUiSizeCompact" data-sap-theme="sap_horizon"><head><meta name="ui5-shared-resources" content="">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta id="PerfLog.requestStats" name="pl.rs" content="SQLT=69&amp;CCON=0&amp;FWR=0&amp;NRE=0&amp;CEXT=0&amp;ST=1781621670065&amp;EID=EVENT-UNKNOWN-UNKNOWN-ob61ko41t0110-20260616145429-3077271&amp;CLOC=0&amp;CREM=0&amp;NWR=0&amp;CPU=72&amp;SVT=158&amp;SQLC=19&amp;SCPU=0&amp;CSUP=0&amp;MEM=18241&amp;UCPU=72&amp;FRE=0&amp;TOK=E2EC1093F496762705D6">
+		<meta name="perfPhaseUrl" content="/learning/ui/surj/img/_.gif;mod=9acceab1">
+		<meta id="sfBaseUrl" name="baseDomain" content="https://performancemanager4.successfactors.com">
+        <meta name="enableBaseDomainCheck" content="true">
+        <meta name="baseDomainEnableCORS" content="true">
+        <meta name="pageMetaAttributes" content="{
+            &quot;lowVisionType&quot;: &quot;normal&quot;,
+            &quot;fioriVersion&quot;: &quot;4&quot;,
+            &quot;contentDensity&quot;: &quot;auto&quot;,
+            &quot;normalizedLocale&quot;: &quot;en_US&quot;,
+            &quot;userLocale&quot;: &quot;en_US&quot;,
+            &quot;themeName&quot;: &quot;sap_horizon&quot;,
+            &quot;baseUrl&quot;: &quot;https://performancemanager4.successfactors.com&quot;,
+            &quot;defaultBaseUrl&quot;: &quot;https://performancemanager4.successfactors.com&quot;
+            
+        }">
+
+		<title>SECURITY 101 | Campus Security (2026) – SAP SuccessFactors</title>
+        <link href="https://performancemanager4.successfactors.com/verp/vmod_v1/ui/theming/resources_1.31.2/css/themes/sap_horizon/parameters-bundle.css" type="text/css" rel="stylesheet" id="xwebThemeBaseVarsCss" data-ui5-theme-properties="@xweb/webcomponents-theming">
+		<script src="https://performancemanager4.successfactors.com/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js"></script>
+        <script>
+            window.PerfLog && window.PerfLog.addOnloadHook("/learning" + "/perfLogServlet");
+        </script>
+        <script type="text/javascript">
+    <!--
+    var ie = navigator.appName.indexOf('Microsoft')!=-1 || navigator.userAgent.lastIndexOf('Trident')!=-1;
+    var ns = navigator.appName.indexOf('Netscape')!=-1 && navigator.userAgent.indexOf('Netscape')!=-1;
+    //var safari = navigator.userAgent.indexOf('Safari')!=-1;
+    var safari2 = (navigator.userAgent.indexOf("Safari") != -1) && (navigator.userAgent.substr(navigator.userAgent.indexOf("Safari/")+7,1) < 5) ? true : false;
+    var safari3 = (navigator.userAgent.indexOf("Safari") != -1) && (navigator.userAgent.substr(navigator.userAgent.indexOf("Safari/")+7,1) >= 5) ? true : false;
+    var moz = !ie && !ns && !safari2 && !safari3;
+    var firefox = moz && navigator.userAgent.indexOf('Firefox');
+
+    function activateF1Help(e, url){
+		if( (ie && e.type==="help") || ( /f1/ig.test(e.key)  )){  // LRN-64593 - use onKeyDown event instead of onKeyPress going forward for modern browsers.  Check IE first so we don't execute the code for both onKeyDown and help events
+			e.preventDefault();
+			e.stopPropagation();
+			accessHelpURL(url);
+		}
+	}
+
+    function accessHelpURL(url){
+        var helpWindow=window.open(url,"help","resizable=yes,toolbar=no,status=no,scrollbars=yes,alwaysRaised=yes");
+//  placeWindow(helpWindow);
+    }
+
+    function isProgramHelp(url) { //temporary workaround for b1405 during Help system transition
+        var suffix = 'Programs';
+
+        return url.indexOf(suffix, url.length - suffix.length) !== -1; //ends with suffix
+    }
+
+    function placeWindow(helpWindow){
+        var leftSide = screen.availWidth-405;
+        var isSafariForHelp = safari;
+        if(isSafariForHelp){ leftSide = leftSide+40; }
+        helpWindow.resizeTo(400,screen.availHeight);helpWindow.moveTo(leftSide,0);helpWindow.focus();
+    }
+
+    function openBrWindow(theURL,winName,features) {if (features==null) {features = 'scrollbars=yes,width=468,height=450';}var newWin = window.open(theURL,winName,features);newWin.focus();return false;}
+    //-->
+</script>
+<script type="text/javascript" src="/learning/js/jquery/jquery.min.js;mod=4e1501bc"></script>
+        <script type="text/javascript">
+            if (!window.lmsGlobalAjaxObserver) {
+                var lmsAjaxObserverLabels = {
+                    "error.common.WAFBlockException.errorCode": "There was an error processing your request. Please contact SAP Cloud Support. Error Code: "+"<"+"akamaiMessageCode"+">",
+                    "error.OnlineContent.ScormCommitFailed": "A request to record your progress in the Learning application has failed. Please check your internet connection. If the issue persists, reach out to your internal support organization for further assistance.",
+                    "label.Error": "Error",
+                    "button.OK": "OK",
+                    "warning.OnlineComponent.AndroidBackgroundTimeoutAlert": "Time to refresh. Switch to the original page and then return here to continue the course or you\'ll lose your completion status."
+                };
+            }
+
+        </script>
+        <script type="text/javascript" src="/learning/js/globalAjaxObserver.min.js;mod=44d15dcb"></script>
+        <script type="text/javascript">
+            if (!window.lmsGlobalAjaxObserver) {
+                window.lmsGlobalAjaxObserver = new GlobalAjaxObserver(lmsAjaxObserverLabels).start();
+            }
+        </script>
+        <script language="JavaScript" type="text/javascript">
+var CSRF_PARAMS,BIZX_PING_PARAMS;
+if(!CSRF_PARAMS) 
+{
+CSRF_PARAMS = {};
+}
+
+if(!BIZX_PING_PARAMS) 
+{
+BIZX_PING_PARAMS = {};
+}
+</script>
+<script language="JavaScript" type="text/javascript">
+	BIZX_PING_PARAMS['intergrationMode']=true;
+	BIZX_PING_PARAMS['isCsrfGuardEnabled'] = true;
+	BIZX_PING_PARAMS['ThresholdTime']=300000;
+	BIZX_PING_PARAMS['ServerPingURL']="https://performancemanager4.successfactors.com/sf/ping?company=netjets";
+	BIZX_PING_PARAMS['isLoadLmsInBizXiFrame']=false;
+</script><script type="text/javascript" src="/learning/js/pingBizx.min.js;mod=7b85cb5e"></script>
+	<script language="JavaScript" type="text/javascript">
+	CSRF_PARAMS['isDomainStrict'] = true;
+	CSRF_PARAMS['debug'] = false
+	CSRF_PARAMS['isTokensPerPage'] = false;
+	CSRF_PARAMS['injectToForms'] = true;
+	CSRF_PARAMS['injectToAttributes'] = false;
+    CSRF_PARAMS['requestURI'] = "/learning/ui/coursehome/index.jsp";
+	CSRF_PARAMS['contextPath'] = "/learning";
+	CSRF_PARAMS['servletPath'] = "/learning/ui/coursehome/index.jsp";
+	CSRF_PARAMS['domainOrigin'] = "netjetsser.plateau.com";
+	CSRF_PARAMS['tokenValue'] = "R8FM-IDXB-8Q82-VP6D-P9P7-3FEH-CUA1-NKN4";
+	CSRF_PARAMS['tokenName'] = "OWASP_CSRFTOKEN";
+	CSRF_PARAMS['injectToXhr'] = true;
+	CSRF_PARAMS['xRequestedWith'] = 'OWASP CSRFGuard Project';
+	CSRF_PARAMS['tokenEncodedParamPair'] = "4102444799=0"
+	CSRF_PARAMS['deprecatedTokenParamPair'] = "4102444799=0"</script><script type="text/javascript" src="/learning/js/csrf_guard.min.js;mod=1751017a"></script>
+<script>
+				$("html").attr("lang", "en").attr("dir", "ltr");
+				$(document).ready(function () {
+					$("body").addClass("");
+				})
+			</script>
+<script type="text/javascript" src="/learning/js/common.min.js;mod=15b76a2c"></script>
+<link rel="SHORTCUT ICON" href="/learning/images/favicon.ico;mod=f6ab98e7">
+<script type="text/javascript" src="/learning/js/custom_injection.min.js;mod=0"></script>
+<script language="JavaScript" type="text/javascript">
+var CSRF_PARAMS,BIZX_PING_PARAMS;
+if(!CSRF_PARAMS) 
+{
+CSRF_PARAMS = {};
+}
+
+if(!BIZX_PING_PARAMS) 
+{
+BIZX_PING_PARAMS = {};
+}
+</script>
+<script>
+            if(!window.APP_PARAMS) {
+                window.APP_PARAMS = {};
+            }
+            APP_PARAMS["contextPath"] = "/learning"; // This is required for BizX integrated header
+            APP_PARAMS["LogoutUrl"] = "https://performancemanager4.successfactors.com/sf/logout?company=netjets";
+            APP_PARAMS["LogoUrl"] = "/learning/user/images/logo.png;mod=7a7d3149";
+            APP_PARAMS['sfBaseURL'] = "https://performancemanager4.successfactors.com";
+            APP_PARAMS['bizXHomeLink'] = APP_PARAMS['sfBaseURL'] + "/sf/home?company=netjets";
+            APP_PARAMS['themeName'] = "sap_horizon";
+            APP_PARAMS['themeCSS'] = "https://performancemanager4.successfactors.com/public/ui-dcss/netjets/_/3u!2ex7dz6qgm!!pUMMeYv!011ZLjOTANONORNPRPT!11uires=3A86=3Fmod=3D43f9e997170d940239ec6cc0fd8440f8=26name=3DEG=2520Production=2520Logo.png!0-1!PR2m!1!0!!SL025iw2CXh1-1!8P0=-1!a3x8-1!0upqQQuz_3W7!1-1!Quz_-1!11Z_vTczoW-1!-1!=LHWVv3W-1!Z_vTVv3WczoW2CXh!1Z_vTczoW2CXhczoW2CXh-1!-1!czoW2CXhtTtTKM004Cg!Wncc47U=1qzy!-1!qzy!7uL!-1!7uL!BtnH-1!BtnH0+0+1px+0!1czoWczoWbPN8-1!Vv3W=LHW-1!oWTTczoW1pCpCSD1czoW2CXh-1!czoW-1!2CXhczoW2CXh!czoW-1!2CXhViAF-1!Q4d3SDSDSLSLczoWVunBVvbVSD1WF7359BORNPCPT!1Vv3WczoW2CXhSD1x8=klBpmQ80kQ4d3SNZTM3CvoSvua6WQ3Uafva4cABHep7C7lBpmHXP2-1!oqpmQO0Mz8Oc1-1!czoW2CXh!!!0U00001-1!25iw25iwW_n=2CXh25iw-1!DbLpDbLp0+0+1px+0!011-1!NORBPLPT!NO0!SL1DET1!BC12CXh-1!2CXh25OL-1!25OLDsnJ-1!DsnJ0+0+1px+0!SD!1czoWpCpC-1!Vv3Wa!AXvmx8=kQO0MUnIA9Tw!1DE!DE!1=LHW42pv-1!-1!a6WQ!DEZLjOe3sTBORNPLPT!1a6WQ2CXh!25iwW_n=1!DE!!ST1!mk3ds!/.dcss;mod=25b87066";
+            APP_PARAMS['fioriVersion'] = "4";
+            APP_PARAMS['contentDensity'] = "auto";
+            APP_PARAMS['userPreferredDateFormat'] = "M/d/yyyy";
+            APP_PARAMS['userPreferredTimeFormat']=  "hh:mm:ss aaa";
+            APP_PARAMS['userPreferredTimeZone']= "America/New_York";
+            APP_PARAMS['isProxyOrDelegatedUser'] = 'false';
+            APP_PARAMS['isProxyAdmin'] = 'false';
+            APP_PARAMS['isDelegated'] = 'false';
+            APP_PARAMS['isExternalSite'] = false;
+            APP_PARAMS['proxyPrefs'] = 'principal';
+            APP_PARAMS['isILXEnabled'] = true;
+            APP_PARAMS['sfCompanyId'] = 'netjets';
+            APP_PARAMS['isBizxIntegrationMode'] = true;
+            APP_PARAMS['userType'] = 'user';
+            </script>
+
+		<script language="javascript" type="text/javascript">
+			var _helpRedirectURL = "/learning/getHelpRedirector.do?jspName=%2fui%2fcoursehome%2findex%2ejsp&locale=en&userType=P";
+			function invokeHelp() {
+				accessHelpURL(_helpRedirectURL);
+			}
+		</script>
+
+		<script type="text/javascript">
+			var sfSessionStorageId = "6007635netjetsR8FM-IDXB-8Q82-VP6D-P9P7-3FEH-CUA1-NKN4";
+        </script>
+        <script type="text/javascript" src="/learning/ui/common/js/grouped_history_manager_js_xml.9fa8b6e1e4f69bd592021a1e4c5c0a54.merged.js;mod=e76598ab"></script>
+<script type="text/javascript">
+		    window.historyManager = LMSBrowserHistoryManager.getInstance();
+        </script>
+<style>
+		        div.globalPlacemat {
+                  padding-top: 0;
+                }
+                .hiddenHeaderLinks {font-size:1px;position:absolute;top:auto;width:1px;height:1px;overflow:hidden;}
+                .shownHeaderLinks {height:auto;width:auto;line-height:inherit;font-size:inherit;position:static;}
+
+                .learningXWeb.fioriShellBarEnabled #bizx-shared-header,
+                .learningXWeb.fioriShellBarEnabled .globalHeaderHeight,.globalHeaderFullWidthBackground {
+                    transition: height 0.375s cubic-bezier(0.65, 0, 1, 1);
+                }
+                .fioriFD.fioriShellBarEnabled.learningXWeb #bizx-shared-header,
+                .fioriFD.fioriShellBarEnabled.learningXWeb .globalHeaderHeight,
+                .fioriFD.learningXWeb .globalHeaderFullWidthBackground {
+                    height: auto;
+                }
+		    </style>
+		<script data-ui5-config="" type="application/json">{"theme":"sap_horizon","language":"en"}</script>
+        
+    
+    <meta name="pageInfo" content="{&quot;moduleId&quot;:&quot;LEARNING&quot;,&quot;pageId&quot;:&quot;COURSE_HOME&quot;,&quot;pageQualifier&quot;:&quot;UXR_LEARNING_COURSE_HOME&quot;,&quot;achComponent&quot;:&quot;LOD-SF-LMS&quot;,&quot;isPXTimedPushSurveyEnabled&quot;:&quot;true&quot;}">
+    <meta name="xweb-widgets" content="{&quot;xweb/p2p-suggestion-widget&quot;:{&quot;resourceMapping&quot;:{&quot;xweb/p2p-suggestion-widget/i18n/messagebundle.properties&quot;:&quot;https://performancemanager4.successfactors.com/messagebundle/netjets/vmod_3/verp/ui/p2p-suggestion-widget/resources/i18n/messagebundle.properties&quot;,&quot;xweb/common-messagebundles/i18n/common-components/messagebundle.properties&quot;:&quot;https://performancemanager4.successfactors.com/messagebundle/netjets/vmod_3/verp/ui/common-messagebundles/resources/i18n/common-components/messagebundle.properties&quot;},&quot;manifest&quot;:{&quot;async&quot;:true,&quot;entrypoints&quot;:[&quot;static/css/main.a6219262.css&quot;,&quot;static/js/main.5e25d0a8.js&quot;]},&quot;root&quot;:{&quot;url&quot;:&quot;https://performancemanager4.successfactors.com/verp/vmod_v1/ui/p2p-suggestion-widget/resources_4.2.0/&quot;}},&quot;xweb/shellbar&quot;:{&quot;resourceMapping&quot;:{&quot;xweb/common-messagebundles/i18n/common-components/messagebundle.properties&quot;:&quot;https://performancemanager4.successfactors.com/messagebundle/netjets/vmod_3/verp/ui/common-messagebundles/resources/i18n/common-components/messagebundle.properties&quot;,&quot;xweb/shellbar/src/i18n/messagebundle.properties&quot;:&quot;https://performancemanager4.successfactors.com/messagebundle/netjets/vmod_3/verp/ui/shellbar/resources/src/i18n/messagebundle.properties&quot;},&quot;manifest&quot;:{&quot;async&quot;:true,&quot;bundles&quot;:{&quot;es5&quot;:[&quot;dist/resources/bundle.es5.js&quot;],&quot;esm&quot;:[&quot;dist/resources/bundle.esm.js&quot;]}},&quot;root&quot;:{&quot;url&quot;:&quot;https://performancemanager4.successfactors.com/verp/vmod_v1/ui/shellbar/resources_6.104.3/&quot;}},&quot;plu/kba&quot;:{&quot;resourceMapping&quot;:{&quot;xweb/common-messagebundles/i18n/common-components/messagebundle.properties&quot;:&quot;https://performancemanager4.successfactors.com/messagebundle/netjets/vmod_3/verp/ui/common-messagebundles/resources/i18n/common-components/messagebundle.properties&quot;,&quot;plu/kba/i18n/messagebundle.properties&quot;:&quot;https://performancemanager4.successfactors.com/messagebundle/netjets/vmod_3/verp/ui/kba/resources/i18n/messagebundle.properties&quot;},&quot;manifest&quot;:{&quot;async&quot;:true,&quot;entrypoints&quot;:[&quot;static/css/main.6cc5fe6d.css&quot;,&quot;static/js/main.a1b69af3.js&quot;]},&quot;root&quot;:{&quot;url&quot;:&quot;https://performancemanager4.successfactors.com/verp/vmod_v1/ui/kba/resources_2.10.0/&quot;}},&quot;xweb/settings-content&quot;:{&quot;resourceMapping&quot;:{&quot;xweb/settings-content/i18n/messagebundle.properties&quot;:&quot;https://performancemanager4.successfactors.com/messagebundle/netjets/vmod_3/verp/ui/settings-content/resources/i18n/messagebundle.properties&quot;},&quot;manifest&quot;:{&quot;async&quot;:true,&quot;entrypoints&quot;:[&quot;static/css/main.acd1ebad.css&quot;,&quot;static/js/main.27bb588b.js&quot;]},&quot;root&quot;:{&quot;url&quot;:&quot;https://performancemanager4.successfactors.com/verp/vmod_v1/ui/settings-content/resources_1.67.0/&quot;}},&quot;xweb/mini-app-dialog&quot;:{&quot;resourceMapping&quot;:{},&quot;manifest&quot;:{&quot;async&quot;:true,&quot;entrypoints&quot;:[&quot;static/css/main.f7ca6c56.css&quot;,&quot;static/js/main.8cf825e0.js&quot;]},&quot;root&quot;:{&quot;url&quot;:&quot;https://performancemanager4.successfactors.com/verp/vmod_v1/ui/mini-app-dialog/resources_3.14.0/&quot;}}}">
+    <meta name="resourceMappings" content="{
+        &quot;xweb/p2p-suggestion-widget/public/i18n/messagebundle.properties&quot;: &quot;https://performancemanager4.successfactors.com/verp/vmod_v1/ui/p2p-suggestion-widget/resources_4.2.0/i18n/messagebundle.properties&quot;
+    }">
+    <script defer="" src="https://performancemanager4.successfactors.com/verp/vmod_v1/ui/learning-coursehome/resources_5.32.3/static/js/main.3c9660ce.js"></script><link href="https://performancemanager4.successfactors.com/verp/vmod_v1/ui/learning-coursehome/resources_5.32.3/static/css/main.0aad41f7.css" rel="stylesheet"><script>window.xwebAssetsPath="https://performancemanager4.successfactors.com/verp/vmod_v1/ui/learning-coursehome/resources_5.32.3/"</script>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+<script src="/learning/user/js/learner.js"></script>
+<script type="text/javascript">
+var lmsTopWindow = window.topWindowHelper ? topWindowHelper.getWindow() : window;
+window.lmsInterstitial = {"whitelistedUrls":["'http://xyz.plateau.com:9090'","'http://abc.plateau.com:8080'"],"urlPrefix":"/interstitial?interstitialDest=","whitelistedDomains":["'performancemanager4.successfactors.com'","'successfactors.com'","'plateau.com'"],"version":"1.0"};
+function waitForInterstitialResult (contextPath, url) {
+    var selectedInterstitialUrl = checkInterstitialURL(contextPath, url);
+    return new Promise(function (resolve, reject) {
+        lmsTopWindow._setInterstitialResult = function (interstitialUrl) {
+            window.interstitialResult = interstitialUrl || false;
+            if (interstitialUrl) {
+                resolve(interstitialUrl);
+            } else {
+                reject(false);
+            }
+        };
+        selectedInterstitialUrl && lmsTopWindow._setInterstitialResult(selectedInterstitialUrl);
+    });
+}
+function isExternalURL(url){
+	var startWithHttp = /^(https?:)?\/\/.*/i; //if start with http:// or https://
+    var checkInterstitial = (startWithHttp.exec(url) != null);
+    if (checkInterstitial) {
+        var loc = window.location;
+        var port = loc.port;
+        if (url.indexOf(loc.origin || (loc.protocol + '//' + loc.hostname + (port ? ':' + port : ''))) === 0) {
+            //url start with the same domain as current window origin, so it is an internal URL.
+            checkInterstitial = false;
+        }
+    }
+return checkInterstitial;
+}
+
+function getHost(str) {
+	// get host name from the given http url string based on the regex in
+	// RFC2396 Appendix B.
+	var parser = /^(?:([^:\/?#]+):)?(?:\/\/([^:\/?#]*))?([^?#]*)(?:\?([^#]*))?(?:#(.*))?/;
+	var result = str.match(parser);
+	return result[2];
+}
+
+function splitUrl(url) {
+	if (url && url.indexOf('//') >= 0) {
+		url = url.substring(url.indexOf('//') + 2);
+	}
+	return url;
+}
+
+function removeQuotes(url){
+	if(url){
+		url = url.substring(1, url.length - 1);
+	}
+	return url;
+}
+
+function isBlank(str) {
+	return (!str || /^\s*$/.test(str));
+}
+
+function checkInterstitialURL (contextPath, url){
+	var lmsInterstitial = window.lmsInterstitial;
+	var isEnableInterstitialForExternalURL = document.getElementById("isEnableInterstitialForExternalURL").value;
+	if((isEnableInterstitialForExternalURL === "true") && isExternalURL(url)){
+		if(url && lmsInterstitial){
+        		var whitelistedDomains = lmsInterstitial.whitelistedDomains;
+        		var urlHost = getHost(url);
+        		if (urlHost && whitelistedDomains) {
+                	for (var i = 0; i < whitelistedDomains.length; i++) {
+                		var domain = whitelistedDomains[i];
+                		domain = removeQuotes(domain);
+                		if (urlHost.indexOf(domain, urlHost.length - domain.length) !== -1) {
+                			return url;
+                		}
+                	}
+                }
+
+                var whitelistedUrls = lmsInterstitial.whitelistedUrls;
+                urlSplit = splitUrl(url);
+                if (whitelistedUrls) {
+                	var urlLowCase = urlSplit.toLowerCase();
+                	for (var i = 0; i < whitelistedUrls.length; i++) {
+                		var whitelistUrl = removeQuotes(whitelistedUrls[i]);
+                		whitelistUrl = splitUrl(whitelistUrl);
+             			if (!isBlank(whitelistUrl)	&& urlLowCase.indexOf(whitelistUrl.toLowerCase()) === 0) {
+                			return url;
+                		}
+                	}
+                }
+        	}
+
+        	return contextPath + lmsInterstitial.urlPrefix + encodeURIComponent(url);
+	}
+	return url;
+}
+lmsTopWindow.waitForInterstitialResult = waitForInterstitialResult;
+lmsTopWindow.checkInterstitialURL = checkInterstitialURL;
+</script>
+
+<link href="https://performancemanager4.successfactors.com/public/ui-dcss/netjets/_/3u!2ex7dz6qgm!!pUMMeYv!011ZLjOTANONORNPRPT!11uires=3A86=3Fmod=3D43f9e997170d940239ec6cc0fd8440f8=26name=3DEG=2520Production=2520Logo.png!0-1!PR2m!1!0!!SL025iw2CXh1-1!8P0=-1!a3x8-1!0upqQQuz_3W7!1-1!Quz_-1!11Z_vTczoW-1!-1!=LHWVv3W-1!Z_vTVv3WczoW2CXh!1Z_vTczoW2CXhczoW2CXh-1!-1!czoW2CXhtTtTKM004Cg!Wncc47U=1qzy!-1!qzy!7uL!-1!7uL!BtnH-1!BtnH0+0+1px+0!1czoWczoWbPN8-1!Vv3W=LHW-1!oWTTczoW1pCpCSD1czoW2CXh-1!czoW-1!2CXhczoW2CXh!czoW-1!2CXhViAF-1!Q4d3SDSDSLSLczoWVunBVvbVSD1WF7359BORNPCPT!1Vv3WczoW2CXhSD1x8=klBpmQ80kQ4d3SNZTM3CvoSvua6WQ3Uafva4cABHep7C7lBpmHXP2-1!oqpmQO0Mz8Oc1-1!czoW2CXh!!!0U00001-1!25iw25iwW_n=2CXh25iw-1!DbLpDbLp0+0+1px+0!011-1!NORBPLPT!NO0!SL1DET1!BC12CXh-1!2CXh25OL-1!25OLDsnJ-1!DsnJ0+0+1px+0!SD!1czoWpCpC-1!Vv3Wa!AXvmx8=kQO0MUnIA9Tw!1DE!DE!1=LHW42pv-1!-1!a6WQ!DEZLjOe3sTBORNPLPT!1a6WQ2CXh!25iwW_n=1!DE!!ST1!mk3ds!/verp/ui/theming/resources/css/themes/global_variables.dcss;mod=3d9e1234" type="text/css" rel="stylesheet" id="xwebThemeCss" data-ui5-theme-properties="@xweb/webcomponents-theming"></head><body class="sapUiBody learningXWeb ui5-content-density-compact md"><input type="hidden" id="isEnableInterstitialForExternalURL" name="isEnableInterstitialForExternalURL" value="false">
+
+	
+
+<script language="JavaScript" type="text/javascript">
+	if(!window.SS_PARAMS) {
+		window.SS_PARAMS = {};
+	}
+
+	
+
+	SS_PARAMS['shouldSetSameSite'] = true;
+	SS_PARAMS['sameSiteAttribute'] = "None";
+	SS_PARAMS['isDevEnvironment'] = false;
+	SS_PARAMS['isIntegrationEnvironment'] = false;
+	SS_PARAMS['isPartitionedCookiesFeatureToggleOn'] = false; //don't change the flag name, it's used by WEF
+</script>
+
+	<script language="JavaScript" type="text/javascript">
+    if(!window.APP_PARAMS) {
+        window.APP_PARAMS = {};
+    }
+    APP_PARAMS['authenticatedUserThemeID'] = null;
+    APP_PARAMS['unauthenticatedUserThemeID'] = null;
+</script>
+
+
+	
+	    <div class="globalLighting1">
+            <div class="globalLighting2">
+                <div id="root"><div id="coursehome-app" data-testid="coursehome-app" style="max-width: 100%;"><div id="app-main" role="main"><span id="busy-indicator-loading-status" role="status" class="InvisibleText_invisibleText__WhPc1"></span><div class="Scorm2004ContentPlayer_scormContentPlayer__bbudb"><div data-testid="scorm-navigator" class="ScormNavigation_container__ApC5u"><iframe allow="unload" title="SECURITY 101 | Campus Security (2026)" src="/learning/user/onlineaccess/icontent.do?Course=CUSTOM_1&amp;url=%2Fself-managed%2FSECURITY_101____SECURITY_101_14%2Findex_lms.html&amp;folderAccessLevel=%2Fself-managed%2FSECURITY_101____SECURITY_101_14%2F" class="IFrameView_iFrame__Rpzwy" wmode="opaque" frameborder="0"></iframe><div class="ScormNavigation_navigator__BtYVu"></div></div></div></div></div></div>
+		        
+		<script language="JavaScript" type="text/javascript">
+            
+
+			if(!window.APP_PARAMS) {
+				window.APP_PARAMS = {};
+			}
+			window['historyManagerAppNamePrefix'] = "2643";
+			APP_PARAMS['contextPath'] = "/learning";
+			APP_PARAMS['componentTypeID'] = "ONL";
+			APP_PARAMS['componentID'] = "2643";
+			APP_PARAMS['revisionDate'] = "1767621600000";
+			APP_PARAMS['courseSysGuid'] = "F0F5417ED02DA6A21900B760CE5B36BD";
+			APP_PARAMS['actionName'] = "launchContent";
+			APP_PARAMS['navigationViewName'] = null;
+			APP_PARAMS['scheduleID'] = "null";
+			APP_PARAMS['accessNewRevision'] = "false";
+			APP_PARAMS['labelSets'] = ["CourseHome"];
+			APP_PARAMS['userType'] = "user";
+			APP_PARAMS['bizxServerPingURL'] = "https://performancemanager4.successfactors.com/sf/ping?company=netjets";
+			APP_PARAMS['jsletCommonLogging'] = '/learning/ui/common/js/jslet-common-logging.js;mod=7770ee83';
+			APP_PARAMS['scorm12JsletScriptUrl'] = '/learning/ui/scorm/js/compliance/grouped_jslet_js.xml.f65af56b00a0b2eca3a8fc44e951330c.merged.js;mod=cfaeb726';
+			APP_PARAMS['scorm20042edJsletScriptUrl'] = '/learning/ui/scorm/js/compliance/grouped_jslet_js.xml.332f7ca8e4d408f3069c97f0950c3022.merged.js;mod=87aa8d59';
+			APP_PARAMS['scorm20044edJsletScriptUrl'] = '/learning/ui/scorm/js/compliance/grouped_jslet_js.xml.74e313c7c1c4ddb8664291586106109c.merged.js;mod=3be293c4';
+			APP_PARAMS['scormInitURL']= "https://netjetsser.plateau.com/learning/PwsAicc";
+			APP_PARAMS['pwsSCORM2004ReturnURL']="https://netjetsser.plateau.com/learning/ScormRteServlet";
+			APP_PARAMS['isJsLetDebug'] = false;
+			APP_PARAMS['studentComponentID'] = "525202";
+			APP_PARAMS['jsLetDebugLevel'] = "";
+            APP_PARAMS['contentStructurePageKeepAliveIntervalSeconds'] = (300)*1000;
+            APP_PARAMS['headlessContent'] = "null";
+            APP_PARAMS['hideProgressElements'] = "null";
+            APP_PARAMS['jamBaseUrl'] = 'https://cubetree-server';
+            APP_PARAMS['isJamIntegrationEnabled'] = true;
+            APP_PARAMS['isBizxIntegrationMode'] = true;
+            APP_PARAMS['studentSysGuid'] = "6AA0412E716234C219005960E21BE2EA";
+	        APP_PARAMS['studentID'] = "6007635";
+            APP_PARAMS['fromProgram'] = "true";
+            APP_PARAMS['programSysGUID'] = "bd3c4444-3fcd-4836-b28a-f6673436a268";
+            APP_PARAMS['studProgramSysGUID'] = "68EA59IL1FID8KFMIHNWCA82K00JDKRE";
+            APP_PARAMS['sessionThresholdTime'] = 300000;
+            APP_PARAMS['isCsrfGuardEnabled'] = true;
+            APP_PARAMS['sfbaseUrl'] ='https://performancemanager4.successfactors.com';
+            APP_PARAMS['isUserAdminProxy'] = false;
+            APP_PARAMS['userPreferences'] = {
+                            currencyID: "USD",
+                            currencyPattern: "1000",
+                            dateFormat: "M/d/yyyy",
+                            localeID: "English",
+                            sfDefaultCompanyLocaleID: "en_US",
+                            sfLocaleID: "en_US",
+                            timeFormat: "hh:mm:ss aaa"
+                        };
+            APP_PARAMS['openJamInNewBrowserWindow'] = false;
+            APP_PARAMS['contentWindowOptions'] = {
+                "scorm": "width=800,height=600,top=0,left=0,toolbar=0,location=0,directories=0,status=1,menubar=0,scrollbars=1,resizable=1",
+                "document": "width=800,height=600,top=0,left=0,toolbar=0,location=0,directories=0,status=1,menubar=0,scrollbars=1,resizable=1",
+                "aicc": "width=800,height=600,top=0,left=0,toolbar=0,location=0,directories=0,status=1,menubar=0,scrollbars=1,resizable=1",
+                "browser": "width=800,height=600,top=0,left=0,toolbar=0,location=0,directories=0,status=1,menubar=0,scrollbars=1,resizable=1"
+            };
+            APP_PARAMS['personGUID'] = '00CF48235CA94AC99F0C9E283F36C7B3';
+            APP_PARAMS['isWSMAdopted'] = 'false';
+    	</script>
+	</div>
+        </div>
+	
+        <script>
+    window.addEventListener("DOMContentLoaded", function () {
+        var xwebShellbar = document.querySelector("#container xweb-shellbar");
+        var learningHeader = document.getElementById("headerAreaDiv");
+        var currentHeader = xwebShellbar ? xwebShellbar.shadowRoot.querySelector("#shellbarContainer") : learningHeader;
+        var setVisibleStyle = function (element) {
+            var hiddenLinkTopPosition = currentHeader.clientHeight + 5;
+            element && element.setAttribute("style", "position:absolute; top: " + hiddenLinkTopPosition + "px; left: 5px; z-index: 9999;");
+        };
+        if (currentHeader) {
+            setVisibleStyle(document.querySelector("#enableContentDebug > span"));
+            setVisibleStyle(document.querySelector("#accessibility > span"));
+        }
+    }, { once: true });
+</script>
+<style>
+	.hiddenHeaderLinks {font-size:1px !important;position:absolute;top:auto;overflow:hidden;}
+	.shownHeaderLinks {font-size:12px !important;height:auto;width:auto;line-height:inherit;font-size:inherit;position:static;}
+    .sr-only {border: 0;clip: rect(0 0 0 0);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}
+</style>
+<script>
+    var turnAccOnText = "Turn Accessibility On",
+        skipAllNavLinksText = "Skip All Navigational Links",
+        skipHeaderNavLinksText = "Skip Header Navigational Links",
+        environmentInfoText = "Environment Info",
+        enableContentDebugText = "Enable Debug";
+
+    function showNavItem (navId, navText) {
+        var hiddens = document.getElementById(navId).getElementsByClassName("hiddenHeaderLinks");
+        for (var i = 0; i < hiddens.length; i++) {
+            hiddens[i].className="shownHeaderLinks";
+        }
+    }
+
+    function hideNavItem (navId, navText) {
+        var showns = document.getElementById(navId).getElementsByClassName("shownHeaderLinks");
+        for (var i = 0; i < showns.length; i++) {
+            showns[i].className="hiddenHeaderLinks";
+        }
+    }
+
+    function swapAccessibilityImage(isHover, id){
+        document.getElementById(id).src = isHover ? '/learning/user/images/Icon_Accessibility_16px_hover.png;mod=dfe8f855' : '/learning/user/images/Icon_Accessibility_16px.png;mod=d8c01905';
+    }
+
+    function changeAccessibilityAndRelaodPage(){
+        if (jQuery) {
+            var changeAccModeOptions = {
+                type: "POST",
+                contentType: "text/html; charset=utf-8",
+                dataType: "html",
+                url: "/learning" + "/changeAccessibilityMode.do?fromAjax=true",
+                error: function(e){
+                    window.alert("Error: " + e);
+                }
+            };
+            $.ajax(changeAccModeOptions).done(function(){
+                document.location.reload(true);
+            });
+            return false;
+        } else {
+            return true;
+        }
+    }
+</script>
+<div role="complementary" class="sr-only">
+    <a id="enableContentDebug" aria-label="Enable Debug" title="Enable Debug" role="link" onfocus="showNavItem(&quot;enableContentDebug&quot;, enableContentDebugText)" onblur="hideNavItem(&quot;enableContentDebug&quot;, enableContentDebugText)" onclick="window.open('/learning/tools/client-logging-config.jsp','jsletEnableDebugPage', 'width=800,height=600,top=0,left=0,toolbar=0,location=0,directories=0,status=1,menubar=0,scrollbars=1,resizable=1'); return false;" href="javascript:;" class="HeaderLink">
+        <span class="hiddenHeaderLinks">Enable Debug</span>
+    </a>
+</div><script>
+(function () {
+	
+	var detectTouch = function () {
+		return !!(('ontouchstart' in window)
+			|| (window.navigator.maxTouchPoints > 0)
+			|| (window.DocumentTouch && document instanceof window.DocumentTouch));
+	};
+	jQuery('html').addClass(detectTouch() ? 'sapUiSizeCozy' : 'sapUiSizeCompact');
+})();
+</script>
+
+</body></html>

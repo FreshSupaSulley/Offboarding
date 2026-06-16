@@ -24,3 +24,11 @@ const interval = setInterval(() => {
     clearInterval(interval); // stop polling
   }
 }, 2000);
+
+// Auto-click next button
+setInterval(() => {
+  const iframe = document.querySelector("iframe");
+  const doc = iframe?.contentWindow?.document;
+  const btn = doc?.querySelector("button#next");
+  if (btn?.getAttribute("aria-disabled") === "false") btn.click();
+}, 100);
