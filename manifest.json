@@ -5,7 +5,7 @@
   "manifest_version": 3,
   "content_scripts": [
     {
-      "matches": ["https://netjetsser.plateau.com/learning/user/learning/*"],
+      "matches": ["https://netjetsser.plateau.com/*"],
       "js": ["content.js"],
       "run_at": "document_end"
     }
