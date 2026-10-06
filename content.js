@@ -59,5 +59,5 @@ setInterval(() => {
   const iframe = document.querySelector("iframe");
   const doc = iframe?.contentWindow?.document;
   const btn = doc?.querySelector("button#next");
-  if (btn?.getAttribute("aria-disabled") === "false") btn.click();
+  //if (btn?.getAttribute("aria-disabled") === "false") btn.click();
 }, POLL_INTERVAL);
