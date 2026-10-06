@@ -1,6 +1,6 @@
 {
   "name": "Offboarding",
-  "description": "How to get kicked out of NetJets tutorial",
+  "description": "How to get kicked out of your job tutorial",
   "version": "0.0.1",
   "manifest_version": 3,
   "content_scripts": [

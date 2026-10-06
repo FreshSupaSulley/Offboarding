@@ -1,5 +1,5 @@
 # Offboarding
-How to get fired from NetJets tutorial
+How to get fired from your job tutorial
 
 ## What
 Raises the top speed ceiling from x2 to x15. Any higher and some other part of the webpage breaks.
